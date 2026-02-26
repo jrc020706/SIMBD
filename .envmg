@@ -1,0 +1,9 @@
+DB_HOST=localhost
+DB_PORT=5432
+DB_USER=postgres
+DB_PASSWORD=
+DB_NAME=saludpublica
+
+MONGO_URI=mongodb://localhost:27017/saludplus
+
+POSTGRES_URL=postgres://postgres:123456@localhost:5432/saludplus
