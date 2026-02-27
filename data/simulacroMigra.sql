@@ -1,3 +1,12 @@
+DROP TABLE IF EXISTS appointment CASCADE;
+DROP TABLE IF EXISTS patient CASCADE;
+DROP TABLE IF EXISTS doctor CASCADE;
+DROP TABLE IF EXISTS specialty CASCADE;
+
+
+
+
+
 CREATE TABLE IF NOT EXISTS "appointment" (
 	"appointment_id" SERIAL NOT NULL UNIQUE,
 	"appointment_date" DATE NOT NULL,
